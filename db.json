@@ -1,12 +1,363 @@
 {
-  "users": [
+  "artists": [
     {
       "id": 1,
-      "name": "Ryan"
+      "name": "Dominic Fike",
+      "coverimg": "https://i.scdn.co/image/2303aa760ec7107cdbf70c5221fd0f50d625d69a"
     },
     {
-      "name": "Mike",
-      "id": 2
+      "id": 2,
+      "name": "Flume",
+      "coverimg": "https://specials-images.forbesimg.com/imageserve/5aac0fc431358e79a28c0304/416x416.jpg?background=000000&cropX1=1289&cropX2=4444&cropY1=303&cropY2=3456"
+    },
+    {
+      "id": 3,
+      "name": "Lane 8",
+      "coverimg": "https://i1.sndcdn.com/avatars-000696393259-85qhzh-t500x500.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Skrillex",
+      "coverimg": "https://static.spin.com/files/2018/11/Skrill_2-1543430318-640x640.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tylor the Creator",
+      "coverimg": "https://www.mynaijalyrics.com/mnl_content/uploads/2019/06/IMG_20190604_061919-640x640.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Virtual Self",
+      "coverimg": "https://dazedimg-dazedgroup.netdna-ssl.com/640/azure/dazed-prod/1230/8/1238280.jpg"
+    }
+  ],
+
+  "pictures": [
+    {
+      "id": 1,
+      "namepic": "Flower boy",
+      "image": "https://scontent-yyz1-1.cdninstagram.com/vp/8b1d2ddcab57e2cc88b50c275082baa1/5E2BB763/t51.2885-15/sh0.08/e35/c0.121.1080.1080a/s640x640/70878738_102420224473560_1565024343845552658_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=100",
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "namepic": "nights",
+      "image": "https://66.media.tumblr.com/5af5fb5eb112481a2adfabdb9f8ffbc5/tumblr_inline_pgplq6bSxZ1s9on4d_1280.png",
+      "artistId": 1
+    },
+    {
+      "id": 3,
+      "namepic": "live show tonight",
+      "image": "https://scontent-lga3-1.cdninstagram.com/vp/664bce557e21bf614be275f06b44b256/5E3C2FDC/t51.2885-15/sh0.08/e35/c0.180.1440.1440a/s640x640/71594762_1144932335895455_7300443298411584138_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_cat=111",
+      "artistId": 1
+    },
+    {
+      "id": 4,
+      "namepic": "Don't Forget about Me, Demons",
+      "image": "https://external-preview.redd.it/9xitPiaHww2SewVHLs_qcsh7DMBh4G8NkpHeJeaaUjw.jpg?width=640&crop=smart&auto=webp&s=064705fefaa663fa2a74bd2709cb6fce1f481c1a",
+
+      "artistId": 1
+    },
+    {
+      "id": 5,
+      "namepic": "BOO",
+      "image": "https://scontent-yyz1-1.cdninstagram.com/vp/1487f6ab33f510b42cd4d0b46495249b/5E278ED6/t51.2885-15/sh0.08/e35/c0.119.1079.1079a/s640x640/69869451_239908610312674_6821180874819687004_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=110",
+      "artistId": 1
+    },
+    {
+      "id": 6,
+      "namepic": "twilight",
+      "image": "https://humanhuman.imgix.net/artists/78549.jpg?w=640&h=640&fit=crop&crop=faces&fm=jpg&dpr=2",
+      "artistId": 1
+    },
+    {
+      "id": 7,
+      "namepic": "lol",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3WisgLnd8QiUFVP-9tqfkrzYe6t4Ei0mc22aEdHY04Ao-WUBzDg&s",
+
+      "artistId": 1
+    },
+    {
+      "id": 8,
+      "namepic": "New single",
+      "image": "https://scontent-lga3-1.cdninstagram.com/vp/e83c409ad8d3bc0d9806ca7c487744e6/5E0FF565/t51.2885-15/sh0.08/e35/s640x640/67581224_104703917567541_4969161232942977755_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com",
+      "artistId": 1
+    },
+    {
+      "id": 9,
+      "namepic": "me, and me and oh me",
+      "image": "https://scontent-yyz1-1.cdninstagram.com/vp/e1cb77d5a45fc105e4d1580fcfcc65d7/5E202B6A/t51.2885-15/sh0.08/e35/c0.99.795.795a/s640x640/68695989_386846682004613_7690116951977629075_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&_nc_cat=105",
+      "artistId": 1
+    },
+    {
+      "id": 1,
+      "namepic": "mixtape",
+      "image": "https://static.stereogum.com/uploads/2019/03/D2DE713U0AAF9Zp-1553213165-640x640.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 2,
+      "namepic": "chill",
+      "image": "https://pbs.twimg.com/media/DvtAKKxWsAIFDlY.jpg:large",
+      "artistId": 2
+    },
+    {
+      "id": 3,
+      "namepic": "ride bike",
+      "image": "https://www.edmtunes.com/wp-content/uploads/2019/07/flume-696x696.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 4,
+      "namepic": "not a show",
+      "image": "https://pbs.twimg.com/media/ECcl6q4UIAAau69.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 5,
+      "namepic": "SKIN",
+      "image": "http://zawada.art/wp-content/uploads/2018/08/Flume_Skin-1.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 6,
+      "namepic": "murp",
+      "image": "https://d.newsweek.com/en/full/1524553/flume-performing.jpg?w=1600&h=1600&l=0&t=0&q=88&f=937946f7c32e23e1575e89ff945142e5",
+      "artistId": 2
+    },
+    {
+      "id": 7,
+      "namepic": "coming soon",
+      "image": "https://i1.wp.com/coolhunting.com/wp-content/uploads/2019/03/wheel.jpg?resize=600%2C600&ssl=1",
+      "artistId": 2
+    },
+    {
+      "id": 8,
+      "namepic": "TB",
+      "image": "https://i1.wp.com/theelectrichawk.com/wp-content/uploads/2019/10/Petit-Biscuit-Rushing-Back-Flume.jpg?fit=810%2C810&ssl=1",
+      "artistId": 2
+    },
+    {
+      "id": 9,
+      "namepic": "single",
+      "image": "https://i.kfs.io/album/global/60980902,0v1/fit/500x500.jpg",
+      "artistId": 2
+    },
+    {
+      "id": 1,
+      "namepic": "",
+      "image": "https://pbs.twimg.com/media/CQF4bmZW8AE6sY9.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 2,
+      "namepic": "",
+      "image": "http://www.highclouds.org/wp-content/uploads/2017/10/LANE-8-LITTLE-BY-LITTLE-770x770.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 3,
+      "namepic": "",
+      "image": "https://i1.sndcdn.com/avatars-000304301111-vkmzf7-t500x500.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 4,
+      "namepic": "",
+      "image": "https://i1.sndcdn.com/artworks-000480833844-seu4uf-t500x500.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 5,
+      "namepic": "",
+      "image": "https://i1.sndcdn.com/artworks-000350884854-ovjf79-t500x500.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 6,
+      "namepic": "",
+      "image": "https://images.genius.com/412fd198ca85b7c7c9fd6089fb104ffc.1000x1000x1.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 7,
+      "namepic": "",
+      "image": "https://seatgeek.com/images/performers-landscape/lane-8-89335d/293706/24951/square_mid.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 8,
+      "namepic": "",
+      "image": "https://geo-media.beatport.com/image/5a0e1a7d-fd9b-43cf-aeb1-cadbd14ec8bf.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 9,
+      "namepic": "",
+      "image": "https://dancingastro-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/lane-8-fall-mixtape.jpg",
+      "artistId": 3
+    },
+    {
+      "id": 1,
+      "namepic": "",
+      "image": "https://edmnations.com/wp-content/uploads/2017/09/20842145_1570296769689199_7900517109645043493_n.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 2,
+      "namepic": "",
+      "image": "https://static.stereogum.com/uploads/2019/08/Midnight-Hour-Final-1567015479-640x640.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 3,
+      "namepic": "",
+      "image": "https://venueeventartist.com/imateq/artist/97/1296/g500SC0/365645.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 4,
+      "namepic": "",
+      "image": "https://scontent-sea1-1.cdninstagram.com/vp/2af5c68676804c5688cb97c22d4cc665/5E5CFEBC/t51.2885-15/sh0.08/e35/s640x640/65315617_2985502654846150_8605837488028623649_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=110",
+      "artistId": 4
+    },
+    {
+      "id": 5,
+      "namepic": "",
+      "image": "https://medias.spotern.com/spots/w640/157/157942-1534023522.jpg",
+      "artistId": 4
+    },
+    {
+      "id": 6,
+      "namepic": "",
+      "image": "https://instagram.fist1-2.fna.fbcdn.net/vp/515658b91716bc6def047028deb462f9/5E00099F/t51.2885-15/sh0.08/e35/c0.118.1080.1080a/s640x640/67260501_673671373109973_7328472199925454562_n.jpg?_nc_ht=instagram.fist1-2.fna.fbcdn.net&_nc_cat=109",
+      "artistId": 4
+    },
+    {
+      "id": 7,
+      "namepic": "",
+      "image": "https://scontent-sea1-1.cdninstagram.com/vp/ade91632272232a2d3334310fb6a121f/5E43FDB2/t51.2885-15/e35/c0.135.1080.1080a/s480x480/65593206_2362308724040353_8292464872469920498_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=101",
+      "artistId": 4
+    },
+    {
+      "id": 8,
+      "namepic": "",
+      "image": "https://scontent-sea1-1.cdninstagram.com/vp/12d162feb07172ead82098c273f4165e/5E5C6000/t51.2885-15/e35/s480x480/67562072_370263807021261_3808519799079535608_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com&_nc_cat=109",
+      "artistId": 4
+    },
+    {
+      "id": 9,
+      "namepic": "",
+      "image": "https://scontent-icn1-1.cdninstagram.com/vp/6cca876fd21b0349847a24d6e2612128/5DC1B480/t51.2885-15/e15/s640x640/61331700_142039526886080_2048422073845984696_n.jpg?_nc_ht=scontent-icn1-1.cdninstagram.com&_nc_cat=108",
+      "artistId": 4
+    },
+    {
+      "id": 1,
+      "namepic": "",
+      "image": "https://media2.fdncms.com/stranger/imager/u/large/41259653/1567284904-screenshot_2019-08-31_13.53.24.png",
+      "artistId": 5
+    },
+    {
+      "id": 2,
+      "namepic": "",
+      "image": "https://instagram.fdad3-3.fna.fbcdn.net/vp/7248662a47f1981bf6ad6006e21423d0/5DF244A3/t51.2885-19/s320x320/58453845_2223451437733551_95099634019467264_n.jpg?_nc_ht=instagram.fdad3-3.fna.fbcdn.net",
+      "artistId": 5
+    },
+    {
+      "id": 3,
+      "namepic": "",
+      "image": "https://thefader-res.cloudinary.com/private_images/w_760,c_limit,f_auto,q_auto:best/cover-story-tyler-the-creator_1_xcva8t/tyler-the-creator.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 4,
+      "namepic": "",
+      "image": "https://medias.spotern.com/spots/w640/214/214961-1563183480.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 5,
+      "namepic": "",
+      "image": "https://assets.vogue.com/photos/5ce714c5d90148f0f25a6b8d/1:1/w_2025,h_2025,c_limit/00-vw-promo-tyler-creater.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 6,
+      "namepic": "",
+      "image": "https://missbish.com/wp-content/uploads/2018/01/tyler-the-creator-teaches-us-how-to-make-the-perfect-cinnamon-waffles-810x810.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 7,
+      "namepic": "",
+      "image": "https://i2.wp.com/www.xxlmag.com/files/2017/07/100000x100000-999.jpg?resize=640%2C640",
+      "artistId": 5
+    },
+    {
+      "id": 8,
+      "namepic": "",
+      "image": "https://i.pinimg.com/originals/0a/d6/c3/0ad6c3778c5636482c2bc7657a75b1b6.jpg",
+      "artistId": 5
+    },
+    {
+      "id": 9,
+      "namepic": "",
+      "image": "https://thumbs.gfycat.com/ChillyCompetentAruanas-size_restricted.gif",
+      "artistId": 5
+    },
+    {
+      "id": 1,
+      "namepic": "",
+      "image": "https://i.scdn.co/image/ab67616d0000b2734ba2d15b6e7f470bfd3e424e",
+      "artistId": 6
+    },
+    {
+      "id": 2,
+      "namepic": "",
+      "image": "https://riverbeats.life/wp-content/uploads/2018/03/25289314_835125973331994_2966321844810959380_n.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 3,
+      "namepic": "",
+      "image": "https://i1.sndcdn.com/artworks-000253639007-bolbxk-t500x500.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 4,
+      "namepic": "",
+      "image": "https://thefader-res.cloudinary.com/private_images/w_1440,c_limit,f_auto,q_auto:best/DOIqeG_VoAAX_ZE_cb7xyd/porter-robinson-virtual-self-interview.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 5,
+      "namepic": "",
+      "image": "https://pbs.twimg.com/media/DySFVnUVYAAyQTB.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 6,
+      "namepic": "",
+      "image": "https://i1.sndcdn.com/artworks-000489857547-9bdl6i-t500x500.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 7,
+      "namepic": "",
+      "image": "https://d3ieicw58ybon5.cloudfront.net/ex/1600.1066/u/9fb09f9eea0a4716a506026d0f23b69e.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 8,
+      "namepic": "",
+      "image": "https://www.youredm.com/wp-content/uploads/2018/08/Jason-Fenmore-for-Insomniac-Events-6.jpg",
+      "artistId": 6
+    },
+    {
+      "id": 9,
+      "namepic": "",
+      "image": "https://pbs.twimg.com/media/D2ruREMWsAAAL1G.jpg",
+      "artistId": 6
     }
   ]
 }

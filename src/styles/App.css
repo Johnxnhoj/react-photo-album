@@ -1,0 +1,91 @@
+.container {
+  height: 1000px;
+  background: rgb(40, 67, 88);
+}
+.All {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 150px 200px;
+  height: 670px;
+}
+.Overlay {
+  color: white;
+  text-decoration-style: none;
+
+  font-size: 23px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.All2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 150px 100px;
+  height: 670px;
+}
+
+.container2 {
+  display: flex;
+  background: rgb(40, 67, 88);
+  text-decoration: none;
+  height: 1300px;
+}
+.Bar {
+  margin: 150px 0px;
+  text-decoration: none;
+  background: rgba(237, 179, 245, 0.507);
+  height: 622px;
+  width: 500px;
+  transition: 100ms;
+  font-size: 30px;
+  text-decoration: none;
+}
+.Bar:hover {
+  transition: 1000ms;
+  margin: 150px 0px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: rgb(255, 126, 117);
+  height: 622px;
+  width: 500px;
+}
+
+.Name-box {
+  height: 80px;
+}
+.Name-box:hover {
+  background: rgb(65, 159, 172);
+  height: 80px;
+  border-radius: 5%;
+  padding: 0px 5px;
+  transition: 800ms;
+}
+
+.title-name {
+  color: white;
+}
+.One-pic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 150px 200px;
+  height: 670px;
+}
+.container3 {
+  background: rgb(40, 67, 88);
+}
+.arrow {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.arrow:hover {
+  color: rgb(85, 62, 14);
+}
