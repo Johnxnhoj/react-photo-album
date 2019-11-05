@@ -5,10 +5,12 @@ import axios from "axios"
 function Libary(props) {
   const [pictures, setPictures] = useState([])
   const [artists, setArtists] = useState([])
-  const id = props.match.params.id
+  const [artist, setArtist] = useState([])
+  const artistId = props.match.params.id
 
   useEffect(() => {
-    axios.get(`/artists/${id}?_embed=pictures`).then(resp => {
+    axios.get(`/artists/${artistId}?_embed=pictures`).then(resp => {
+      setArtist(resp.data)
       setPictures(resp.data.pictures)
     })
   }, [props.match.params])
@@ -21,9 +23,11 @@ function Libary(props) {
 
   return (
     <main className="container2">
-      <Link className="arrow" to={"/"}>
+      <Link className="arrow1" to={"/"}>
         <div>&larr;</div>
       </Link>
+
+      <h1 className="nono">{artist.name}</h1>
 
       <div className="Bar">
         <span>Artists</span>
@@ -39,7 +43,11 @@ function Libary(props) {
         {pictures.map(p => (
           <Link key={p + p.id} to={"/Picture/" + p.id}>
             <div className="Each-a">
-              <img style={{ width: "300px", height: "300px" }} src={p.image} />
+              <img
+                className="first"
+                style={{ width: "300px", height: "300px" }}
+                src={p.image}
+              />
               <div className="A-name">{p.namepic}</div>
             </div>
           </Link>

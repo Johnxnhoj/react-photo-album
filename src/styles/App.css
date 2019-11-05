@@ -39,11 +39,21 @@ a:-webkit-any-link {
   margin: 150px 0px;
   text-decoration: none;
   background: rgba(237, 179, 245, 0.507);
-  height: 622px;
+  height: 0px;
   width: 500px;
   transition: 100ms;
   font-size: 30px;
   text-decoration: none;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
+}
+.zero {
+  border-radius: 10%;
+}
+.first {
+  border-radius: 10%;
 }
 .Bar:hover {
   transition: 1000ms;
@@ -60,9 +70,10 @@ a:-webkit-any-link {
   height: 80px;
 }
 .Name-box:hover {
-  background: rgb(65, 159, 172);
+  color: rgb(68, 60, 50);
+  background: rgb(86, 127, 204);
   height: 80px;
-  border-radius: 5%;
+  border-radius: 10%;
   padding: 0px 5px;
   transition: 800ms;
 }
@@ -77,15 +88,86 @@ a:-webkit-any-link {
   margin: 150px 200px;
   height: 670px;
 }
-.container3 {
+.picture3 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: rgb(40, 67, 88);
+  height: 800px;
 }
-.arrow {
+.bigphoto {
+  border-radius: 10%;
+  width: 600px;
+  height: 600px;
+}
+.arrow1 {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   color: white;
   text-decoration: none;
   font-size: 50px;
   font-family: sans-serif;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
 }
-.arrow:hover {
+.arrow1:hover {
+  transition: 1s;
+  background: rgba(100, 148, 237, 0.548);
   color: rgb(85, 62, 14);
+}
+.arrow2 {
+  left: 0;
+  top: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: sans-serif;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
+}
+.arrow2:hover {
+  transition: 1s;
+  background: rgba(100, 148, 237, 0.548);
+  color: rgb(85, 62, 14);
+}
+.nono {
+  color: white;
+  font-size: 35px;
+  left: 24.5%;
+  position: absolute;
+}
+.Channge-a {
+  bottom: 20px;
+  left: 685px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: sans-serif;
+  -webkit-transition: 2s ease-out;
+  -moz-transition: 2s ease-out;
+  -o-transition: 2s ease-out;
+  transition: 2s ease-out;
 }

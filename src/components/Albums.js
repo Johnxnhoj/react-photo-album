@@ -20,6 +20,7 @@ function Albums(props) {
           <Link key={e.id} to={"/Libary/" + e.id}>
             <div className="Each-a">
               <img
+                className="zero"
                 style={{ width: "300px", height: "300px" }}
                 src={e.coverimg}
               />

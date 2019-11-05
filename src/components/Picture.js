@@ -1,42 +1,66 @@
 import React, { useState, useEffect } from "react"
+import axios from "axios"
 import { Link } from "react-router-dom"
 
-import axios from "axios"
+export default function(props) {
+  const [pictures, setPictures] = useState({})
 
-function Pictures(props) {
-  const [pictures, setPictures] = useState([])
-  const id = props.match.params.id
+  const [leftId, setLeftId] = useState("")
+  const [rightId, setRightId] = useState("")
+  const [artistId, setArtistId] = useState("")
+
+  const pictureId = props.match.params.id
+
   useEffect(() => {
-    axios.get(`/artists/${id}?_embed=pictures`).then(resp => {
-      setPictures(resp.data.pictures)
+    axios.get(`/pictures/${pictureId}`).then(resp => {
+      const pic = resp.data
+      setArtistId(pic.artistId)
+      axios.get(`/pictures?artistId=${pic.artistId}`).then(resp2 => {
+        const pictures = resp2.data
+
+        let currentIndex = null
+
+        pictures.forEach((image, i) => {
+          if (image.id == pictureId) {
+            currentIndex = i
+          }
+        })
+        if (currentIndex === 0) {
+          setLeftId(pictures[pictures.length - 1].id)
+          setRightId(pictures[currentIndex + 1].id)
+        } else if (currentIndex === pictures.length - 1) {
+          setLeftId(pictures[currentIndex - 1].id)
+          setRightId(pictures[0].id)
+        } else {
+          setLeftId(pictures[currentIndex - 1].id)
+          setRightId(pictures[currentIndex + 1].id)
+        }
+      })
     })
-  }, [])
+  }, [pictureId])
+
+  useEffect(() => {
+    axios.get(`/pictures/${pictureId}`).then(resp => {
+      setPictures(resp.data)
+    })
+  }, [pictureId])
 
   return (
-    <main className="container3">
-      <Link className="arrow" to={"/Libary/" + id}>
-        <div>&larr;</div>
+    <div className="picture3">
+      <Link className="arrow2" to={`/Libary/${artistId}`}>
+        &larr;
       </Link>
-      <div className="One-pic">
-        {pictures.map(p => (
-          <div className="Each-a">
-            <div className="A-name">{p.namepic}</div>
-            <img
-              className="MySlides"
-              style={{ width: "600px", height: "600px" }}
-              src={p.image}
-            />
-            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">
-              &#10094;
-            </button>
-            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">
-              &#10095;
-            </button>
-          </div>
-        ))}
+      <div className="Channge-a">
+        <Link className="L-A" to={"/picture/" + leftId}>
+          &larr;
+        </Link>
+
+        <Link className="R-A" to={"/picture/" + rightId}>
+          &rarr;
+        </Link>
       </div>
-    </main>
+      <hi>{pictures.namepic}</hi>
+      <img className="bigphoto" src={pictures.image} alt={pictures.namepic} />
+    </div>
   )
 }
-
-export default Pictures
